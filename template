@@ -1,0 +1,61 @@
+#include<bits/stdc++.h>
+using namespace std; 
+#define M 1000000007
+# define ll unsigned long long
+#define loop1(i, j, k, step) for (int i=j; i<k; i+=step)
+#define loop(i, j, k) for (int i=j; i<k; i++) 
+#define rloop1(i, j, k, step) for (int i=j; i>=k; i-=step)
+#define rloop(i, j, k, step) for(int i=j; i>=k; i--)
+#define rep(i, k) for(int i = (0); i < (k); i++ )
+#define rrep(i, k) for(int i = k-1; i >= 0; i-- )
+
+#define forall(it, l) for(auto it=l.begin(); it != l.end(); it++)
+#define mp make_pair
+#define pb push_back
+#define Max (int)MAX_INT
+typedef vector<int> vi;
+typedef pair<int,int> pi;
+
+/* STL's
+SETS
+set<int> s;
+s.insert(3)
+
+set<int>::iterator it = s.begin();
+
+MAPS
+map<string,int> m;
+m["monkey"] = 4;
+
+QUEUE
+queue<int> q;
+q.push(3)
+
+PRIORITY QUEUE IN DECENDING ORDER
+priority_queue<int> q;
+q.push(3);
+
+PRIORITY QUEUE IN ASCENDING ORDER
+priority_queue<int,vector<int>,greater<int>> q
+sort(v.begin(), v.end());
+reverse(v.begin(), v.end());
+sort(a, a+n);
+reverse(a, a+n)
+
+*/
+
+void solve()
+{
+	int n,i,j,k,l;
+}
+int  main() 
+{
+	
+	///freopen("output.txt","w",stdout);
+    ///freopen("input.txt","r",stdin);
+ 
+    ios::sync_with_stdio(false);
+    cin.tie(0);
+    
+	return 0; 
+}
