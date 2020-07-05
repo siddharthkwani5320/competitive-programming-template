@@ -2,7 +2,7 @@
 using namespace std; 
 #define mod 1000000007
 #define N 100005
-#define ll long long
+#define int long long
 #define ull unsigned long long
 #define loop1(i, j, k, step) for (int i=j; i<k; i+=step)
 #define loop(i, j, k) for (int i=j; i<k; i++) 
@@ -14,7 +14,6 @@ using namespace std;
 #define forall(it, l) for(auto it=l.begin(); it != l.end(); it++)
 #define mp make_pair
 #define pb push_back
-#define pop pop_back
 #define F first
 #define S second
 #define sz(x) (int)(x).size()
@@ -25,27 +24,25 @@ using namespace std;
 #define fast_io ios_base::sync_with_stdio(0), cin.tie(NULL)
 typedef vector<int> vi;
 typedef pair<int,int> pi;
-typedef vector<ll> vl;
-typedef pair<ll,ll> pll;
 
 
 void solve()
 {
-	int n,i,j,k,l;
+    int n,i,j,k,l;
 }
-int  main() 
+signed main() 
 {
-	auto start=clock();
-	fast_io;
-	#ifndef ONLINE_JUDGE
-	freopen("/home/sid/Documents/output.txt","w",stdout);
+    auto start=clock();
+    fast_io;
+    #ifndef ONLINE_JUDGE
+    freopen("/home/sid/Documents/output.txt","w",stdout);
     freopen("/home/sid/Documents/input.txt","r",stdin);
- 	#endif
+    #endif
     int t=1;
     cin>>t;
     while(t--)
     	solve();
     auto stop =clock();
     cerr<<"time taken:"<<double(stop-start)/double(CLOCKS_PER_SEC)<<" s"<<endl;
-	return 0; 
+    return 0; 
 }
