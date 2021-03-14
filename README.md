@@ -1,2 +1,2 @@
 # compititive-programming-template
-template of c++ used in competitive programming
+C++ template for competitive programming
